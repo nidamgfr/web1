@@ -1,0 +1,80 @@
+
+body {
+font-family: times new roman;
+  width: 960px;
+  margin: 0px auto;
+  background-image: url(leaf.jpg);
+-webkit-background-size: 960px;
+-moz-background-size: 100% ;
+-o-background-size: 100% ;
+background-size: 960px;
+}
+main {
+  display: flex;
+}
+
+.floristy,
+.judul,
+.navigasi,
+.konten,
+.sidebar,
+.footer {
+
+}
+
+
+.navigasi {
+  color: #EEE8AA;
+  height: 100%;
+  background: #808000;
+  text-align: center;
+  margin-bottom: 0px;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+
+.navigasi ul li {
+  position: center;
+  display : inline-block;
+  padding-top: : 10px;
+  padding-bottom: 5px;
+  padding-right: 35px;
+  
+}
+
+.navigasi a {
+  text-decoration: none;
+  color: #FFA500;
+}
+
+.navigasi a:hover {
+  color: #FFDEAD;
+}
+
+.konten {
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 15px;
+  padding-right: 10px;
+  width: 85%;
+  background: #fFf4B0;
+}
+.sidebar {
+  width: 30%;
+  padding-left: 15px;
+  background: #FFDAB9;
+}
+.footer {
+  padding-top: 1px;
+  padding-bottom: 1px; 
+  color: white;
+  margin-bottom: 0px;
+  background: black;
+  text-align: center;
+}
+
+.floristy {
+  align-content: center;
+  padding-right: 20px;
+}
+
